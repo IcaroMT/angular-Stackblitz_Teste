@@ -12,8 +12,10 @@ import { bootstrapApplication } from '@angular/platform-browser';
     <a target="_blank" href="https://angular.io/start">
       Learn more about Angular {{name}}
     </a>
-  `,
+  ` ,
+  
 })
+
 export class App {
   name = 'Icaro';
 }
